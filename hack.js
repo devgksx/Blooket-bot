@@ -35,7 +35,7 @@ const clickthemultiplier = () => {
 
 
 
-(function myLoop(i) {
+(function botLoop(i) {
     setTimeout(function () {
         clickbutton()
     }, 3000)
@@ -46,6 +46,6 @@ const clickthemultiplier = () => {
         clickthemultiplier()
     }, 5000)
     setTimeout(function () {
-        myLoop()
+        botLoop()
     }, 6000)
 })(10);
