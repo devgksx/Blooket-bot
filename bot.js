@@ -5,19 +5,6 @@ setInterval(function () {
     } catch (err) {}
 }) // The code above is from rxzyx
 
-// function extracttext() {
-//     const outerElement1 = document.querySelector('.styles__choice___MzaKW-camelCase styles__choiceLeft___2dhL8-camelCase');
-//     const innerDiv1 = outerElement1.querySelector('.styles__choiceText___1vlew-camelCase');
-//     const outerElement2 = document.querySelector('.styles__choice___MzaKW-camelCase styles__choiceRight___3Kgrj-camelCase');
-//     const innerDiv2 = outerElement2.querySelector('.styles__choiceText___1vlew-camelCase');
-//     const text1 = innerDiv1.innerText;
-//     const text2 = innerDiv2.innerText;
-//     return {
-//         'Left-button': text1,
-//         'Right-button': text2
-//     }
-// }
-
 function clickbutton() {
     document.querySelector('.styles__answerText___2eIBw-camelCase').click();
 }
